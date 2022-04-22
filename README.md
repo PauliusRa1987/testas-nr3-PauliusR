@@ -7,9 +7,9 @@ _Paulius Ra practis-check_
 
 This project is for educational porpuses only. 
 
-Site published at: 
+Site published at: (https://pauliusra1987.github.io/testas-nr3-PauliusR/)
 
-Design: [Image]()
+Design: [Image](form BIT)
 
 ## Project features
 
