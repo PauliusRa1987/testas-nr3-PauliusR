@@ -9,14 +9,21 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <main>
-        <section>
-            <h1>Get In Touch</h1>
-            <form>
-                forma
-            </form>
-            <button>Submit</button>
-            <p>Thanks for Submitting!</p>
+    <main class="main">
+        <section class="section">
+            <div class="done">
+                <h1>Get In Touch</h1>
+                <form class="form">
+                    <input id="name" type="text" class="input normal md" placeholder="First Name" value="" required>
+                    <input id="name" type="text" class="input normal md" placeholder="Last Name" value="" required>
+                    <input id="email" type="email" class="input normal md" placeholder="Email" value="" required>
+                    <input id="phone" type="tel" class="input normal md" placeholder="Phone" value="" required>
+                    <input id="address" type="text" class="input normal  input-long" placeholder="Address" value="" required>
+                    <textarea id="description" type="textarea" class="input input-long text" placeholder="Type your message here" rows="5" cols="70" value="" required></textarea>
+                </form>
+                <button type="submit" class="button">Submit</button>
+                <p class="thanks">Thanks for Submitting!</p>
+            </div>
         </section>
     </main>
 </body>

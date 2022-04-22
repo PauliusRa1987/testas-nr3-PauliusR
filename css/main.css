@@ -1,0 +1,73 @@
+
+.section {
+    display: inline-block;
+    width: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+}
+.done{
+    width: 700px;
+    margin-left: calc(50% - 305px);}
+
+h1 {
+    width: 80%;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 100;
+    color: #222DC6;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.form {
+    width: 80%;
+    margin-left: 0;
+}
+.form > .input {
+    border: none;
+    background-color: #222DC6;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+.form > .input.input-long{
+    width: 100%;
+}
+.form > .input.input-long.text{
+    padding-top: 10px;
+}
+.form > .normal {
+    height: 50px;
+}
+.form > .normal.md{
+    width: 48%;
+}
+.form > .normal.md:nth-of-type(2n){
+    float: right;
+}
+.input::placeholder {
+    color: aliceblue;
+    font-size: 14px;
+    line-height: 20px;
+}
+.button {
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    background: #233BF5;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 220px;
+}
+.thanks {
+    font-size: 16px;
+    line-height: 20px;
+    color: #93E5CF;
+    padding: 10px 0 20px 0;
+}

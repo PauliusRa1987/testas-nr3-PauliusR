@@ -1,5 +1,5 @@
 :root {
-    --font-main-back-color: linear-gradient(360deg, #D4E6FE 0%, #CCE0FB 100%);;
+    --main-back-color: linear-gradient(360deg, #D4E6FE 0%, #CCE0FB 100%);;
 
 }
 body,
@@ -12,4 +12,7 @@ body * {
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    position: relative;
+    background-color: #CCE0FB;
 }
